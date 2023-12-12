@@ -739,6 +739,9 @@ footer ol>li a{
     .icons{
         color: black;
     }
+    .plus{
+         transform: scale(0.5,0.5);
+    }
 }
 @media only screen and (max-width:600px){
     nav{
