@@ -78,9 +78,27 @@ select{
     margin: 10px;
     border-radius: 10px;
 }
-
-
-
-
-
-
+@media only screen and (max-width:600px) {
+    .AutoItem{
+        width: 97%;
+    }
+    #auto_div{
+        width: 100%;
+        padding: 20px;
+    }
+    .AutoItemBig{
+        height: auto;
+    }
+    .autoNkarBig{
+        width: 100%;
+    }
+    .bntBig {
+        width: 50%;
+        padding: 0;
+        background-position: center;
+    }
+    .btnbig2 {
+        width: 50%;
+        background-position: center;
+    }
+}
