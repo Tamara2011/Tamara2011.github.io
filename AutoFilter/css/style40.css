@@ -91,6 +91,8 @@ select{
     }
     .autoNkarBig{
         width: 100%;
+        height:250px;
+        background-position: center center;
     }
     .bntBig {
         width: 50%;
