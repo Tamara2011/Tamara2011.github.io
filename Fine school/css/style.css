@@ -365,10 +365,10 @@ button:hover{
 }
 @media only screen and (max-width:600px) {
     .sing-in{
-        width: 60%;
+        width: 80%;
         height: 420px;
         padding: 10px;
-        margin: 0px 20px;
+        margin:  20px;
     }
     ul>li{
         float: none;
@@ -378,10 +378,16 @@ button:hover{
         text-align: center;
 
     }
+    .inputDiv>input{
+        width: 80%;
+    }
     .navBar{
         flex-direction: column;
         width: 100%;
         position: relative;
+    }
+    .footer_div>h1{
+        font-size: 32px;
     }
     .respMenu{
         width: 100%;
@@ -411,5 +417,36 @@ button:hover{
     }
     .block{
         display: block;
+    }
+    .home{
+        flex-direction: column;
+        margin: 0;
+    }
+    .home_left{
+        width: 80%;
+    }
+    .home_div{
+        height: auto;
+    
+    }
+    .homeColor{
+        height: auto;
+        padding: 20px;
+    }
+    img{
+        height: 400px;
+    }
+    .SERVICES{
+        height: auto;
+    }
+    .quizDiv{
+        margin: auto;
+        padding: 0;
+    }
+    .header{
+        padding: 0;
+    }
+    .answer{
+        padding: 0;
     }
 }
