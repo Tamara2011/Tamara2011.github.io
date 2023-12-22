@@ -242,10 +242,37 @@ input[type="submit"]{
 .fa-bars{
     display: block;
 } 
+.header{
+    margin: 50px;
+    font-size: 15px;
+}
+.true{
+    flex-direction: column;
+}
+.bigBtn{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+}
+.second>p{
+    font-size: 10px;
+    float: none;
 
 }
-.menuBig{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.second{
+    height: auto;
+}
+.five{
+    height: auto;
+}
+input{
+    margin: 20px;
+}
+.importanttwo{
+    flex-direction: column;
+}
+.fa-solid {
+    padding: 20px;
+}
+}
 }
