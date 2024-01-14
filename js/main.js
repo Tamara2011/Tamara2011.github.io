@@ -16,32 +16,32 @@ let langArr={
     "homeli":{
         "hy":"Գլխավոր",
         "en":"Home",
-        "ru":"врыово"
+        "ru":"Врыово"
     },
     "aboutli":{
-        "hy":"մեր մասին",
-        "en":"about",
-        "ru":"о нас"
+        "hy":"Մեր մասին",
+        "en":"About",
+        "ru":"О нас"
     },
     "qualityli":{
-        "hy":"որակ",
-        "en":"quality",
-        "ru":"качество"
+        "hy":"Որակ",
+        "en":"Quality",
+        "ru":"Качество"
     },
     "skillsli":{
-        "hy":"հմտություններ",
-        "en":"skills",
-        "ru":"навыки",
+        "hy":"Հմտություններ",
+        "en":"Skills",
+        "ru":"Навыки",
     },
     "portfolioli":{
-        "hy":"պորտֆոլիո",
-        "en":"porfolio",
-        "ru":"портфолио"
+        "hy":"Պորտֆոլիո",
+        "en":"Porfolio",
+        "ru":"Портфолио"
     },
     "contactli":{
         "hy":"Կապ",
-        "en":"contact",
-        "ru":"контакт"
+        "en":"Contact",
+        "ru":"Контакт"
     },
     "firstli":{
         "hy":"Թամարա Սուքիասյան",
