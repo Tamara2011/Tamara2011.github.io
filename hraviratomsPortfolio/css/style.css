@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.preloader{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(133, 133, 133);
+    border-top: 10px solid red;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.hiddenLoader{
+    display: none;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+::-webkit-scrollbar{
+    width: 14px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: url("../img/srtik.png");
+    background-size: contain;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px #ffffff;
+    border-radius: 8px;
+}
+.homepage{
+    text-align: center;
+}
+.imgDiv{
+    width: 750px;
+
+}
+.homepage>h3{
+    width: 40%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+}
+#flex-div{
+    width:100%;
+    height:auto;
+    font-size:100px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 0, 0);
+    
+    flex-wrap: wrap;
+    
+    align-items: flex-start;
+    align-content: center;
+
+
+}
+.mark{
+    font-size: 35px;
+    margin: 5px 0 2px 70px;
+}
+#flex-div>div{
+    margin:10px
+}
+.nshan{
+    animation-name: nshansharj;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes nshansharj{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.nshan{
+    animation-name: nshansharj;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes nshansharj{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.fa-heart{
+    color: red;
+    font-size: 60px;
+    margin: 50px;
+    animation-name: srtik;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+@keyframes srtik{
+    from{
+        scale: 1.1;
+    }
+    to{
+        scale: 1.3;
+    }
+}
+.amusinnerDiv{
+    width: 800px;
+    margin: 50px;
+}
+.spasumDiv{
+    font-size: 25px;
+} 
+.jamanakDiv{
+    font-size: 90px;
+    color: red;
+    margin: 50px;
+    font-family: "Dzeragir";
+}
+
+
+.programText{
+    text-align: center;
+    font-size: 50px;
+    padding: 0px 10px 70px 10px;
+}
+.program{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.mijocarum{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.contanier{
+    position: relative;
+    padding: 50px;
+
+    border-left: 2px solid red;
+}
+.firstContanier{
+    border-left: none;
+}
+strong{
+    font-size: 25px;
+    margin: 65px;
+    color: red;
+}
+.amusnakan,
+.amusnakanLeft{
+    position: absolute;
+    left: -44px;
+    font-size: 48px;
+    color: red;
+    top: 100px;
+    padding: 20px;
+}
+.amusnakanLeft{
+     background-color: white; 
+}
+.programH1{
+    padding: 30px;
+    color: red;
+}
+.programP{
+    padding: 5px 30px;
+}
+
+.texanq{
+    padding: 120px;
+    text-align: center;
+}
+.church,
+.restaurant{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    margin: 40px;
+}
+.restaurant{
+    margin: 50px;
+}
+iframe{
+    width: 730px;
+  
+}
+.SurbHripsime,
+.restaurantItali{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: -20px;
+    right: 210px;
+}
+.mapChurch,
+.mapRestaurant{
+    position: relative;
+}
+
+.patasxanH1{
+    margin: 20px 75px;
+}
+.patasxanP{
+    margin: 15px 75px;
+    width: 30%;
+}
+.time{
+    color: red;
+}
+.pataxanner{
+    width: 40%;
+    margin: 50px auto;
+    color: rgb(160, 160, 160);
+}
+form input,
+form label,
+.time{
+    margin: 17px 10px;
+}
+.qanak{
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+}
+
+@font-face{
+    font-family: "Dzeragir";
+    src: url(../font/ArTar_TumanianDzeragir_U.ttf) format("truetype");
+}
+@media only screen and (max-width:600px){
+    .imgDiv{
+        width: 100%;
+    }
+    .homepage h3{
+        width: 90%;
+        margin: 30px auto;
+    }
+    #flex-div{
+        font-size: 25px;
+        flex-wrap: nowrap;
+    }
+    .mark{
+        font-size: 20px;
+        margin: 0px;
+    }
+    .fa-heart{
+        font-size: 45px;
+        margin: 30px;
+    }
+    .amusinnerDiv{
+        width: 80%;
+        margin: 30px;
+    }
+    .spasumDiv{
+        font-size: 20px;
+    }
+    .jamanakDiv{
+        font-size: 65px;
+        margin: 30px;
+    }
+    .programText{
+        font-size: 35px;
+        padding: 30px;
+    }
+    strong{
+        font-size: 17px;
+        margin: 30px;
+    }
+    .contanier{
+        padding: 30px;
+    }
+    .amusnakan,
+    .amusnakanLeft{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .programH1,
+    .programP{
+        padding: 15px;
+    }
+    .programH1{
+        font-size: 20px;
+    }
+    .texanq{
+        padding: 20px;
+    }
+    .church{
+        font-size: 25px;
+    }
+    iframe{
+        width: 100%;
+    }
+    .SurbHripsime,
+    .restaurantItali{
+        width: 100px;
+        height: 100px;
+    }
+    .patasxanH1{
+        font-size: 20px;
+        margin: 25px 10px;
+    }
+    .time{
+        font-size: 17px;
+    }
+    .patasxanP{
+        margin: 15px 30px;
+        width: 80%;
+    }
+    .pataxanner{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .program{
+        width: 100%;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
