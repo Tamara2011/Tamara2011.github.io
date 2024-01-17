@@ -35,6 +35,17 @@ body.dark{
     color: #ffffff;
     
 }
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0BCEAF;
+    border-radius: 7px;
+}
+::-webkit-scrollbar-track{
+    border: inset 0 0 5px #ffffff;
+    border-radius: 7px;
+}
 .container {
     display: inline-block;
     cursor: pointer;
