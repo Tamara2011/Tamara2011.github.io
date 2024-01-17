@@ -246,6 +246,19 @@ form label,
 .time{
     margin: 17px 10px;
 }
+input[type="submit"]{
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+input[type="submit"]:hover{
+    color: red;
+    border: 2px solid red;
+    background-color: #ffffff;
+}
 .qanak{
     border: none;
     border-bottom: 2px solid red;
